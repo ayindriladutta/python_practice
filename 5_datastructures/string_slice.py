@@ -1,0 +1,15 @@
+word = "supercalifragilisticexpiadocious"
+print(word)
+print(word[0])
+print(word[0:5:1])
+print(word[:5])
+print(word[0:5:2])
+print(word[5:9:1])
+print(word[5:])
+print(word[5::2])
+print(word[::-1])
+print(word[-2])
+print(word[-1])
+print(word[word.index("cali"):word.index("fragi")]) # without counting the index values
+print(word[word.index("fragi"):])
+print(word[word.index("fragilistic"):word.index("exp")])
